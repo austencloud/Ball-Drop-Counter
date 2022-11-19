@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="newgame-box">
+            </div>
+<!--DROPPED counter-->
+        <div class="screen-box">
+            <h3 class="label">
+ DROPPED
+                </h3>
+            <div class="screen" id="screen1">
+    
+            </div>
+                     <div class="button-box">
+    <button class="btn1" onclick="addOneDrop()">+1</button>
+    <button class="btn2" onclick="addTwoDrops()">+2</button>
+    <button class="btn3" onclick="addThreeDrops()">+3</button>
+            </div>
+            <button class="reset-button" onclick="resetDrops()">
+                        Reset
+            </button>
+            </div>
+<!--CAUGHT counter-->
+        <div class="screen-box">
+            <h3 class="label">
+ CAUGHT
+                    </h3>
+                <div class="screen" id="screen2">
+    
+                 </div>
+                    <div class="button-box">
+    <button class="btn1" onclick="addOneCatch()">+1</button>
+    <button class="btn2" onclick="addTwoCatches()">+2</button>
+    <button class="btn3" onclick="addThreeCatches()">+3</button>
+                    </div>
+                    <button class="reset-button" onclick="resetCatches()">
+                        Reset
+                    </button>
+             </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
