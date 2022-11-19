@@ -26,6 +26,7 @@ function resetDrops(){
     screen1El.textContent = "0"
     number1 = 0
 }
+window.resetDrops = resetDrops
 
 
 // CATCHES //
@@ -51,3 +52,4 @@ function resetCatches(){
     screen2El.textContent = "0"
     number2 = 0
 }
+window.resetCatches = resetCatches
