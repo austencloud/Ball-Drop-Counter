@@ -2,21 +2,26 @@ let number1 = 0
 let number2 = 0
 let screen1El = document.getElementById("screen1")
 let screen2El = document.getElementById("screen2")
+window.addOneDrop = addOneDrop
+window.addTwoDrops = addTwoDrops
+window.addThreeDrops = addThreeDrops
+window.resetDrops = resetDrops
+window.addOneCatch = addOneCatch
+window.addTwoCatches = addTwoCatches
+window.addThreeCatches = addThreeCatches
+window.resetCatches = resetCatches
 
 // DROPS //
 function addOneDrop(){
     number1 += 1
-    console.log(number1)
     screen1El.innerText = number1
 }
 function addTwoDrops(){
     number1 += 2
-    console.log(number1)
     screen1El.innerText = number1
 }
 function addThreeDrops(){
     number1 += 3
-    console.log(number1)
     screen1El.innerText = number1
 }
 function resetDrops(){
@@ -26,17 +31,14 @@ function resetDrops(){
 // CATCHES //
 function addOneCatch(){
     number2 += 1
-    console.log(number2)
     screen2El.innerText = number2
 }
 function addTwoCatches(){
     number2 += 2
-    console.log(number2)
     screen2El.innerText = number2
 }
 function addThreeCatches(){
     number2 += 3
-    console.log(number2)
     screen2El.innerText = number2
 }
 function resetCatches(){
