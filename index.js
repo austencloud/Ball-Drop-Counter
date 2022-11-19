@@ -14,27 +14,39 @@ function addTwoDrops(){
     number1 += 2
     screen1El.innerText = number1
 }
+window.addTwoDrops = addTwoDrops
+
 function addThreeDrops(){
     number1 += 3
     screen1El.innerText = number1
 }
+window.addThreeDrops = addThreeDrops
+
 function resetDrops(){
     screen1El.textContent = "0"
     number1 = 0
 }
+
+
 // CATCHES //
 function addOneCatch(){
     number2 += 1
     screen2El.innerText = number2
 }
+window.addOneCatch = addOneCatch
+
 function addTwoCatches(){
     number2 += 2
     screen2El.innerText = number2
 }
+window.addTwoCatches = addTwoCatches
+
 function addThreeCatches(){
     number2 += 3
     screen2El.innerText = number2
 }
+window.addThreeCatches = addThreeCatches
+
 function resetCatches(){
     screen2El.textContent = "0"
     number2 = 0
